@@ -1,0 +1,39 @@
+---
+published: true
+title: New Blog!
+layout: post
+tags: [intro, new, anime, about]
+categories: [introduction, animes, leloutama]
+---
+# New Blog!
+
+So I started this blog a few minutes earlier... and I am still trying to figure out things!
+
+So... first let's introduce myself...
+
+My name is `Gourab Nag`, of 9th grade, currently struggling to implement the freakin' websocket protocol... I know I can be dumb sometimes, but no matter what, I cannot bring myself to understand those `frames`...
+
+Anyways, I'm from Mars, and always look for interesting projects in PHP. Oh and by the way I love watching animes. Trust me they are good, very good. 
+
+I am usually hanging around in [Room 11](http://chat.stackoverflow.com/rooms/11/php). A lot of great people are in there.
+
+And if you want a nice anime suggestions, here are some: (they are not ordered as per any ranking, I personally feel they all were good)
+
+* Fullmetal Alchemist Brotherhood
+* Avatar: The Last Air-Bender (Tho not a anime, it's a must watch)
+* Steins; Gate
+* Clannad (Se I & II)
+* Shigatsu wa Kimi No Uso
+* Plastic Memories
+* Tokyo Ghoul
+
+---
+I am currently working on [Leloutama](https://github.com/gourabNagDev/Leloutama). It's a multi-threaded web-server built upon PHP. And has the following features:
+
+* Supports HTTP Caching.
+* Supports response compression using `deflate` and `gzip`.
+* Supports middleware in the form of extensions.
+* Supports dynamic URL (thanks to FastRoute).
+* Supports GET, HEAD, and POST.
+* No need to download additional servers, just PHP.
+* etc...
