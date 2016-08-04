@@ -5,8 +5,6 @@ layout: post
 tags: [intro, new, anime, about]
 categories: [introduction, animes, leloutama]
 ---
-# New Blog!
-
 So I started this blog a few minutes earlier... and I am still trying to figure out things!
 
 So... first let's introduce myself...
