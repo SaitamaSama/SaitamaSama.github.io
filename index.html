@@ -1,22 +1,19 @@
----
-layout: default
----
-
-<div class="home">
-
-  <div class="posts">
-    {% for post in paginator.posts %}
-      <div class="post">
-        <a href="{{ post.url | prepend: site.baseurl }}" class="post-link">
-          <p class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</p>
-          <h3 class="h2 post-title">{{ post.title }}</h3>
-          <p class="post-summary">{{ post.summary }}</p>
-        </a>
-      </div>
-    {% endfor %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Gourab Nag (aka SaitamaSama, Ikari)</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <h1>Hey I'm Gourab Nag</h1>
+  <h2>I make things. Mostly fullstack and web, but I enjoy other things as well!</h2>
+  <div>
+    <a href="https://github.com/SaitamaSama">Github</a>
+    <a href="https://www.linkedin.com/in/gourab-nag-538127168/">LinkedIn</a>
+    <a href="https://stackoverflow.com/users/4332216/ikari">StackOverflow</a>
   </div>
-
-  {% include pagination.html %}
-
-  <!--<p class="rss-subscribe">subscribe <a href="{{ "/feed.xml" | prepend: site.baseurl }}">via RSS</a></p>-->
-</div>
+</body>
+</html>
